@@ -7,14 +7,14 @@ class Header
 
 author 						= 	"Task Force Raider";	//Your Name and tag i.e. McFur[MF]
 
-briefingName 				= 	"TFR Mission Template";	//Your mission name
+briefingName 				= 	"TFR Mission Template";	//Your mission name - Change this
 
-OnLoadName 					= 	"TFR Mission Template";	//Your mission name
+OnLoadName 					= 	"TFR Mission Template";	//Your mission name - Change this
 overviewText 				= 	"Task Force Raider Mission."; //A quote, a hint, you choose
 
-onLoadIntro 				= 	"TFR OP NIGHT"; //Your mission name
+onLoadIntro 				= 	"TFR OP NIGHT"; //Your mission name - Change this
 onLoadMission 				= 	"";
-loadScreen                  =   "Loading_Screen.jpg"; //an image the represents your mission
+loadScreen                  =   "Loading_Screen.jpg"; //an image the represents your mission - Change this
 joinUnassigned 				= 	1;
 disabledAI 					= 	1;
 
@@ -77,7 +77,7 @@ class cfgFunctions {
     automaticVehicleGroupSize = 1;
     exitOn = "";
     onSpawn = "";
-    onHeldUp = "";    
+    onHeldUp = "";    									//Code to execute when civilian stops because a weapon is pointed at him. Passed parameters are: [civilian].
     backpackProbability = 0;
 
     clothes[] = { 										//Add the uniforms you want the civs to wear to this array / Place on ground right click and export to string with Eden Enhanced
