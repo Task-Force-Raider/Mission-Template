@@ -2,27 +2,28 @@ class Header
 	{
 		gameType 			= 	Coop; 
 		minPlayers 			= 	1; 
-		maxPlayers 			= 	26; 
+		maxPlayers 			= 	64; 
 	};
 
-author 						= 	"McFur";
+author 						= 	"Task Force Raider";	//Your Name and tag i.e. McFur[MF]
 
-briefingName 				= 	"Mission Template";
+briefingName 				= 	"TFR Mission Template";	//Your mission name
 
-OnLoadName 					= 	"Mission Template";
-overviewText 				= 	"<t color='#FF0000'>Protection Detail<br /><t color='#FCEF06'>VANILLA";
+OnLoadName 					= 	"TFR Mission Template";	//Your mission name
+overviewText 				= 	"Task Force Raider Mission."; //A quote, a hint, you choose
 
-onLoadIntro 				= 	"Mission Template";
-onLoadMission 				= 	"<t color='#FF0000'>Protection Detail<br /><t color='#FCEF06'>VANILLA";
-
+onLoadIntro 				= 	"TFR OP NIGHT"; //Your mission name
+onLoadMission 				= 	"";
+loadScreen                  =   "Loading_Screen.jpg"; //an image the represents your mission
 joinUnassigned 				= 	1;
 disabledAI 					= 	1;
 
+// ONLY ALTER RESPAWN BLOCK IF YOU KNOW WHAT YOU ARE DOING 
 respawnDialog 				= 	0;
 respawn 					= 	"BASE";
 respawnDelay 				= 	5;
 respawnTemplates[] 			= 	{"MenuPosition"};
-respawnOnStart 				= 	-1;
+respawnOnStart 				= 	0; // -1 - Dont respawn on start. Don't run respawn script on start, 0 - Dont respawn on start. Run respawn script on start, 1 - Respawn on start. Run respawn script on start.
 
 
 briefing 					= 	-1;
@@ -31,3 +32,30 @@ debriefing 					= 	-1;
 showGPS 					= 	1;
 showUAVFeed 				= 	1;
 allowFunctionsRecompile 	= 	1;
+enableDebugConsole[] = {"76561198100534647", "76561198021147331", "76561198140513211", "76561198065233777"};  // Enables Debug Console for players with specified UIDs (BroBeans, Stevie Wonder, McFur, Haydos) and Host/Admin
+enableTargetDebug = 1;
+
+class Params
+{
+	class dzn_brv_enabled
+	{
+		title = "tS AAR Logging";
+		values[] = {0,1};
+		texts[] = {"Disabled","Enabled"};
+		default = 0;
+	};
+	class dzn_brv_enabledAILog
+	{
+		title = "tS AAR Logging -- Enable AI logging";
+		values[] = {0,1};
+		texts[] = {"Disabled","Enabled"};
+		default = 0;
+	};
+	class dzn_brv_disableOnAllDead
+	{
+		title = "tS AAR Logging -- Stop logging on all players dead";
+		values[] = {0,1};
+		texts[] = {"Disabled","Enabled"};
+		default = 1;
+	};
+};
