@@ -59,3 +59,67 @@ class Params
 		default = 1;
 	};
 };
+class cfgFunctions {
+	//#include "modules\grad-civs\cfgFunctions.hpp"		//Only uncomment this if you plan on using Grad-Civs
+};
+
+/*class CfgGradCivs {									//Only uncomment this if you plan on using Grad-Civs
+    autoInit = 1;
+    maxCivsOnFoot = 10;
+    maxCivsResidents = 5;
+    maxCivsInVehicles = 20;
+    spawnDistancesOnFoot[] = {800,1500};
+    spawnDistancesInVehicles[] = {800,4500};
+    debugCivState = 0;
+    debugFps = 0;
+    minCivUpdateTime = 3;
+	minFps = 35;
+    automaticVehicleGroupSize = 1;
+    exitOn = "";
+    onSpawn = "";
+    onHeldUp = "";    
+    backpackProbability = 0;
+
+    clothes[] = { 										//Add the uniforms you want the civs to wear to this array / Place on ground right click and export to string with Eden Enhanced
+        "U_C_Poor_1",
+    	"CFP_U_WorkUniform_BlackGrey",
+		"U_C_Uniform_Scientist_02_formal_F",
+		"CUP_U_C_Rocker_03",
+		"CUP_U_C_racketeer_02",
+		"CUP_I_B_PMC_Unit_3"
+    };
+
+    headgear[] = {										//Add the headgear you want the civs to wear to this array / Place on ground right click and export to string with Eden Enhanced
+        "SP_BeanieHat_Green",
+    	"H_Hat_Safari_olive_F",
+		"SP_BaseballCap_Black"
+    };
+
+    faces[] = {											//Add the faces you want the civs to wear to this array / Place on ground right click and export to string with Eden Enhanced
+        "PersianHead_A3_01",
+    	"PersianHead_A3_02",
+    	"PersianHead_A3_03"
+    };
+
+    goggles[] = {										//Add the eyeware you want the civs to wear to this array / Place on ground right click and export to string with Eden Enhanced
+        "CFP_Beard_Grey",								//you can leave these blank if you wish
+       	"CFP_Beard_Red",
+        "CFP_Beard",
+		"CFP_Scarfbeard_green",
+		"CFP_Scarfbeard_white"
+    };
+
+	vehicles[] = {										//Add the vehicles you want the civs to use to this array / Place on ground right click and export to string with Eden Enhanced
+		"CFP_C_ME_Land_Rover_01",
+		"CFP_C_ME_Datsun_Pickup_Covered_01",
+		"CFP_C_MALDEN_Hilux_01",
+		"RHS_Ural_Open_Civ_01",
+		"C_Van_01_fuel_F",
+		"CUP_C_Golf4_random_Civ",
+		"C_Offroad_02_unarmed_F",
+		"C_SUV_01_F",
+		"C_Van_02_service_F",
+		"C_Van_01_transport_F",
+		"CUP_C_Ural_Civ_03"
+	};
+};*/
