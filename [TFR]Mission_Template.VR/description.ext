@@ -22,7 +22,7 @@ disabledAI 					= 	1;
 respawnDialog 				= 	0;
 respawn 					= 	"BASE";
 respawnDelay 				= 	5;
-respawnTemplates[] 			= 	{"MenuPosition"};
+respawnTemplates[] 			= 	{"MenuPosition"}; //Other possibility is "ace_spectator" and "wave" see (https://ace3mod.com/wiki/framework/spectator-framework.html)
 respawnOnStart 				= 	0; // -1 - Dont respawn on start. Don't run respawn script on start, 0 - Dont respawn on start. Run respawn script on start, 1 - Respawn on start. Run respawn script on start.
 
 
