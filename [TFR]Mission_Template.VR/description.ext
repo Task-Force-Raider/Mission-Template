@@ -21,8 +21,8 @@ disabledAI 					= 	1;
 // ONLY ALTER RESPAWN BLOCK IF YOU KNOW WHAT YOU ARE DOING 
 respawnDialog 				= 	0;
 respawn 					= 	"BASE";
-respawnDelay 				= 	5;
-respawnTemplates[] 			= 	{"MenuPosition"}; //Other possibility is "ace_spectator" and "wave" see (https://ace3mod.com/wiki/framework/spectator-framework.html)
+respawnDelay 				= 	35; //respawn wave delay
+respawnTemplates[] 			= 	{"MenuPosition", "Wave", "Spectator"}; //adds spectator to regular map respawn, see initplayerlocal.sqf for settings
 respawnOnStart 				= 	0; // -1 - Dont respawn on start. Don't run respawn script on start, 0 - Dont respawn on start. Run respawn script on start, 1 - Respawn on start. Run respawn script on start.
 
 
