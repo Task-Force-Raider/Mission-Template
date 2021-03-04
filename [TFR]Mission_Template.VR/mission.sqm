@@ -8,7 +8,7 @@ class EditorData
 	toggles=522;
 	class ItemIDProvider
 	{
-		nextID=2513;
+		nextID=2515;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=75;
+		nextID=111;
 	};
 	class Camera
 	{
-		pos[]={3177.7656,48.577129,4333.0801};
-		dir[]={0.017401505,-0.43935528,0.89825875};
-		up[]={0.0085114259,0.89824438,0.43935826};
-		aside[]={0.99992013,1.023509e-007,-0.019372957};
+		pos[]={2984.228,52.582397,4353.8218};
+		dir[]={0.83583713,-0.35881722,0.41548347};
+		up[]={0.32130945,0.93340784,0.15971865};
+		aside[]={0.44512534,0,-0.89546829};
 	};
 };
 binarizationWanted=0;
@@ -57,22 +57,11 @@ addons[]=
 	"A3_Characters_F_Orange_Facewear",
 	"ace_goggles",
 	"ace_nightvision",
-	"acre_sys_prc343",
-	"acre_sys_prc152",
 	"ace_microdagr",
 	"ace_flashlights",
 	"ace_hearing",
-	"A3_Weapons_F_Launchers_NLAW",
-	"ace_disposable",
-	"ace_nlaw",
-	"ace_overpressure",
-	"ace_realisticweights",
-	"ace_rangecard",
-	"ace_kestrel4500",
 	"ace_explosives",
 	"cfp_uniforms",
-	"A3_Weapons_F_SMGs_SMG_01",
-	"ace_gforces",
 	"A3_Structures_F_Civ_Camping",
 	"A3_Structures_F_EPB_Civ_Camping",
 	"ace_interaction",
@@ -90,7 +79,7 @@ class AddonsMetaData
 {
 	class List
 	{
-		items=46;
+		items=38;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -236,172 +225,116 @@ class AddonsMetaData
 		};
 		class Item21
 		{
-			className="acre_sys_prc343";
-			name="ACRE2 - AN/PRC-343";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item22
-		{
-			className="acre_sys_prc152";
-			name="ACRE2 - AN/PRC-152";
-			author="ACRE2Team";
-			url="https://github.com/IDI-Systems/acre2";
-		};
-		class Item23
-		{
 			className="ace_microdagr";
 			name="ACE3 - MicroDAGR";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item24
+		class Item22
 		{
 			className="ace_flashlights";
 			name="ACE3 - Flashlights";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item25
+		class Item23
 		{
 			className="ace_hearing";
 			name="ACE3 - Hearing";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item26
-		{
-			className="ace_disposable";
-			name="ACE3 - Disposable";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item27
-		{
-			className="ace_nlaw";
-			name="ACE3 - NLAW";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item28
-		{
-			className="ace_overpressure";
-			name="ACE3 - Overpressure";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item29
-		{
-			className="ace_realisticweights";
-			name="ace_realisticweights";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item30
-		{
-			className="ace_rangecard";
-			name="ACE3 - Range Card";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item31
-		{
-			className="ace_kestrel4500";
-			name="ACE3 - Kestrel 4500";
-			author="ACE-Team";
-			url="http://ace3mod.com/";
-		};
-		class Item32
+		class Item24
 		{
 			className="ace_explosives";
 			name="ACE3 - Explosives";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item33
+		class Item25
 		{
 			className="cfp_uniforms";
 			name="cfp_uniforms";
 			author="CFP Team";
 		};
-		class Item34
+		class Item26
 		{
 			className="A3_Structures_F";
 			name="Arma 3 - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item35
+		class Item27
 		{
 			className="A3_Structures_F_EPB";
 			name="Arma 3 Adapt Episode - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item36
+		class Item28
 		{
 			className="ace_interaction";
 			name="ACE3 - Interaction";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item37
+		class Item29
 		{
 			className="ace_dragging";
 			name="ACE3 - Dragging";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item38
+		class Item30
 		{
 			className="A3_Props_F_Enoch";
 			name="Arma 3 Contact Platform - Decorative and Mission Objects";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item39
+		class Item31
 		{
 			className="A3_Structures_F_Tank";
 			name="Arma 3 Tank - Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item40
+		class Item32
 		{
 			className="A3_Structures_F_Mil";
 			name="Arma 3 - Military Buildings and Structures";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item41
+		class Item33
 		{
 			className="A3_Supplies_F_Heli";
 			name="Arma 3 Helicopters - Ammoboxes and Supplies";
 			author="Bohemia Interactive";
 			url="https://www.arma3.com";
 		};
-		class Item42
+		class Item34
 		{
 			className="ace_refuel";
 			name="ACE3 - Refuel";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item43
+		class Item35
 		{
 			className="ace_rearm";
 			name="ACE3 - Rearm";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item44
+		class Item36
 		{
 			className="ace_repair";
 			name="ACE3 - Repair";
 			author="ACE-Team";
 			url="http://ace3mod.com/";
 		};
-		class Item45
+		class Item37
 		{
 			className="A3_Structures_F_Wrecks";
 			name="Arma 3 - Vehicle Wrecks";
@@ -17473,7 +17406,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						description="Actual@Raider 1-1";
+						description="Team Leader@Raider Actual";
 						isPlayable=1;
 						class Inventory
 						{
@@ -17514,28 +17447,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -17655,28 +17578,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -17796,13 +17709,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -17811,57 +17729,8 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="B_Kitbag_rgr";
+								typeName="B_AssaultPack_rgr";
 								isBackpack=1;
-								class ItemCargo
-								{
-									items=9;
-									class Item0
-									{
-										name="ACE_bloodIV_500";
-										count=6;
-									};
-									class Item1
-									{
-										name="ACE_bloodIV";
-										count=2;
-									};
-									class Item2
-									{
-										name="ACE_elasticBandage";
-										count=40;
-									};
-									class Item3
-									{
-										name="ACE_bodyBag";
-										count=2;
-									};
-									class Item4
-									{
-										name="ACE_adenosine";
-										count=10;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=10;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=10;
-									};
-									class Item7
-									{
-										name="ACE_splint";
-										count=10;
-									};
-									class Item8
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
@@ -17869,8 +17738,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1272;
@@ -17970,13 +17839,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -17994,8 +17868,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1273;
@@ -18061,14 +17935,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3104.8064,5.0014391,4437.627};
+						position[]={3104.8059,5.0014391,4437.627};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="SERGEANT";
-						description="Element Leader@Raider 1-2";
+						description="Element Leader@Raider 1";
 						isPlayable=1;
 						class Inventory
 						{
@@ -18109,28 +17983,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -18250,28 +18114,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -18391,13 +18245,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -18415,8 +18274,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1277;
@@ -18493,10 +18352,6 @@ class Mission
 									ammoLeft=30;
 								};
 							};
-							class secondaryWeapon
-							{
-								name="launch_NLAW_F";
-							};
 							class handgun
 							{
 								name="hgun_P07_snds_F";
@@ -18522,13 +18377,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -18546,8 +18406,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1278;
@@ -18648,23 +18508,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=4;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
 									{
-										name="ACE_RangeCard";
+										name="ACE_Flashlight_XL50";
 										count=1;
 									};
 									class Item2
-									{
-										name="ACE_Kestrel4500";
-										count=1;
-									};
-									class Item3
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -18682,8 +18537,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1279;
@@ -18785,13 +18640,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -18809,8 +18669,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1280;
@@ -18911,13 +18771,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -18935,8 +18800,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1281;
@@ -19037,13 +18902,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -19052,57 +18922,8 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="B_Kitbag_rgr";
+								typeName="B_AssaultPack_rgr";
 								isBackpack=1;
-								class ItemCargo
-								{
-									items=9;
-									class Item0
-									{
-										name="ACE_bloodIV_500";
-										count=6;
-									};
-									class Item1
-									{
-										name="ACE_bloodIV";
-										count=2;
-									};
-									class Item2
-									{
-										name="ACE_elasticBandage";
-										count=40;
-									};
-									class Item3
-									{
-										name="ACE_bodyBag";
-										count=2;
-									};
-									class Item4
-									{
-										name="ACE_adenosine";
-										count=10;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=10;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=10;
-									};
-									class Item7
-									{
-										name="ACE_splint";
-										count=10;
-									};
-									class Item8
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
@@ -19110,8 +18931,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1282;
@@ -19177,14 +18998,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3096.8625,5.0014391,4437.6274};
+						position[]={3096.863,5.0014391,4437.6279};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="SERGEANT";
-						description="Element Leader@Raider 1-3";
+						description="Element Leader@Raider  2";
 						isPlayable=1;
 						class Inventory
 						{
@@ -19225,28 +19046,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -19366,28 +19177,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -19507,13 +19308,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -19531,8 +19337,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1286;
@@ -19609,10 +19415,6 @@ class Mission
 									ammoLeft=30;
 								};
 							};
-							class secondaryWeapon
-							{
-								name="launch_NLAW_F";
-							};
 							class handgun
 							{
 								name="hgun_P07_snds_F";
@@ -19638,13 +19440,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -19662,8 +19469,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1287;
@@ -19764,23 +19571,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=4;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
 									{
-										name="ACE_RangeCard";
+										name="ACE_Flashlight_XL50";
 										count=1;
 									};
 									class Item2
-									{
-										name="ACE_Kestrel4500";
-										count=1;
-									};
-									class Item3
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -19798,8 +19600,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1288;
@@ -19901,13 +19703,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -19925,8 +19732,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1289;
@@ -20027,13 +19834,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -20051,8 +19863,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1290;
@@ -20153,13 +19965,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -20168,57 +19985,8 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="B_Kitbag_rgr";
+								typeName="B_AssaultPack_rgr";
 								isBackpack=1;
-								class ItemCargo
-								{
-									items=9;
-									class Item0
-									{
-										name="ACE_bloodIV_500";
-										count=6;
-									};
-									class Item1
-									{
-										name="ACE_bloodIV";
-										count=2;
-									};
-									class Item2
-									{
-										name="ACE_elasticBandage";
-										count=40;
-									};
-									class Item3
-									{
-										name="ACE_bodyBag";
-										count=2;
-									};
-									class Item4
-									{
-										name="ACE_adenosine";
-										count=10;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=10;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=10;
-									};
-									class Item7
-									{
-										name="ACE_splint";
-										count=10;
-									};
-									class Item8
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
@@ -20226,8 +19994,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1291;
@@ -20300,7 +20068,7 @@ class Mission
 					class Attributes
 					{
 						rank="SERGEANT";
-						description="Element Leader@Raider 1-4";
+						description="Element Leader@Raider 3";
 						isPlayable=1;
 						class Inventory
 						{
@@ -20341,28 +20109,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -20483,23 +20241,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=4;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
 									{
-										name="ACE_RangeCard";
+										name="ACE_Flashlight_XL50";
 										count=1;
 									};
 									class Item2
-									{
-										name="ACE_Kestrel4500";
-										count=1;
-									};
-									class Item3
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -20517,8 +20270,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1294;
@@ -20619,13 +20372,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -20634,57 +20392,8 @@ class Mission
 							};
 							class backpack
 							{
-								typeName="B_Kitbag_rgr";
+								typeName="B_AssaultPack_rgr";
 								isBackpack=1;
-								class ItemCargo
-								{
-									items=9;
-									class Item0
-									{
-										name="ACE_bloodIV_500";
-										count=6;
-									};
-									class Item1
-									{
-										name="ACE_bloodIV";
-										count=2;
-									};
-									class Item2
-									{
-										name="ACE_elasticBandage";
-										count=40;
-									};
-									class Item3
-									{
-										name="ACE_bodyBag";
-										count=2;
-									};
-									class Item4
-									{
-										name="ACE_adenosine";
-										count=10;
-									};
-									class Item5
-									{
-										name="ACE_epinephrine";
-										count=10;
-									};
-									class Item6
-									{
-										name="ACE_morphine";
-										count=10;
-									};
-									class Item7
-									{
-										name="ACE_splint";
-										count=10;
-									};
-									class Item8
-									{
-										name="ACE_tourniquet";
-										count=5;
-									};
-								};
 							};
 							map="ItemMap";
 							compass="ItemCompass";
@@ -20692,8 +20401,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1295;
@@ -20770,10 +20479,6 @@ class Mission
 									ammoLeft=30;
 								};
 							};
-							class secondaryWeapon
-							{
-								name="launch_NLAW_F";
-							};
 							class handgun
 							{
 								name="hgun_P07_snds_F";
@@ -20799,13 +20504,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -20823,8 +20533,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1296;
@@ -20925,13 +20635,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -20949,8 +20664,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1297;
@@ -21051,28 +20766,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -21192,13 +20897,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -21216,8 +20926,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1299;
@@ -21318,13 +21028,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=2;
+									items=3;
 									class Item0
 									{
-										name="ACRE_PRC343";
+										name="ACE_microDAGR";
 										count=1;
 									};
 									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -21342,8 +21057,8 @@ class Mission
 							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
-							hmd="NVGoggles_OPFOR";
-							headgear="H_HelmetB_light_black";
+							hmd="NVGoggles";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1300;
@@ -21421,54 +21136,72 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="SMG_01_Holo_F";
-								optics="optic_Holosight_smg";
+								name="arifle_MX_RCO_pointer_snds_F";
+								optics="optic_Hamr";
+								muzzle="muzzle_snds_H";
+								flashlight="acc_pointer_IR";
 								class primaryMuzzleMag
 								{
-									name="30Rnd_45ACP_Mag_SMG_01";
-									ammoLeft=25;
+									name="30Rnd_65x39_caseless_mag";
+									ammoLeft=30;
 								};
+							};
+							class handgun
+							{
+								name="hgun_P07_snds_F";
+								muzzle="muzzle_snds_L";
+								class primaryMuzzleMag
+								{
+									name="16Rnd_9x21_Mag";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
 							};
 							class uniform
 							{
-								typeName="U_B_HeliPilotCoveralls";
+								typeName="U_B_CombatUniform_mcam_vest";
 								isBackpack=0;
 							};
 							class vest
 							{
-								typeName="V_TacVest_blk";
+								typeName="V_Chestrig_rgr";
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=4;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
 									};
 								};
 							};
+							class backpack
+							{
+								typeName="B_AssaultPack_rgr";
+								isBackpack=1;
+							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Shades_Black";
 							hmd="NVGoggles";
-							headgear="H_PilotHelmetHeli_B";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1302;
@@ -21533,54 +21266,72 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="SMG_01_Holo_F";
-								optics="optic_Holosight_smg";
+								name="arifle_MX_RCO_pointer_snds_F";
+								optics="optic_Hamr";
+								muzzle="muzzle_snds_H";
+								flashlight="acc_pointer_IR";
 								class primaryMuzzleMag
 								{
-									name="30Rnd_45ACP_Mag_SMG_01";
-									ammoLeft=25;
+									name="30Rnd_65x39_caseless_mag";
+									ammoLeft=30;
 								};
+							};
+							class handgun
+							{
+								name="hgun_P07_snds_F";
+								muzzle="muzzle_snds_L";
+								class primaryMuzzleMag
+								{
+									name="16Rnd_9x21_Mag";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
 							};
 							class uniform
 							{
-								typeName="U_B_HeliPilotCoveralls";
+								typeName="U_B_CombatUniform_mcam_vest";
 								isBackpack=0;
 							};
 							class vest
 							{
-								typeName="V_TacVest_blk";
+								typeName="V_Chestrig_rgr";
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=4;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
 									};
 								};
 							};
+							class backpack
+							{
+								typeName="B_AssaultPack_rgr";
+								isBackpack=1;
+							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Shades_Black";
 							hmd="NVGoggles";
-							headgear="H_PilotHelmetHeli_B";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1303;
@@ -21658,54 +21409,72 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="SMG_01_Holo_F";
-								optics="optic_Holosight_smg";
+								name="arifle_MX_RCO_pointer_snds_F";
+								optics="optic_Hamr";
+								muzzle="muzzle_snds_H";
+								flashlight="acc_pointer_IR";
 								class primaryMuzzleMag
 								{
-									name="30Rnd_45ACP_Mag_SMG_01";
-									ammoLeft=25;
+									name="30Rnd_65x39_caseless_mag";
+									ammoLeft=30;
 								};
+							};
+							class handgun
+							{
+								name="hgun_P07_snds_F";
+								muzzle="muzzle_snds_L";
+								class primaryMuzzleMag
+								{
+									name="16Rnd_9x21_Mag";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
 							};
 							class uniform
 							{
-								typeName="U_B_HeliPilotCoveralls";
+								typeName="U_B_CombatUniform_mcam_vest";
 								isBackpack=0;
 							};
 							class vest
 							{
-								typeName="V_TacVest_blk";
+								typeName="V_Chestrig_rgr";
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=4;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
 									};
 								};
 							};
+							class backpack
+							{
+								typeName="B_AssaultPack_rgr";
+								isBackpack=1;
+							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Shades_Black";
 							hmd="NVGoggles";
-							headgear="H_PilotHelmetHeli_B";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1305;
@@ -21770,54 +21539,72 @@ class Mission
 						{
 							class primaryWeapon
 							{
-								name="SMG_01_Holo_F";
-								optics="optic_Holosight_smg";
+								name="arifle_MX_RCO_pointer_snds_F";
+								optics="optic_Hamr";
+								muzzle="muzzle_snds_H";
+								flashlight="acc_pointer_IR";
 								class primaryMuzzleMag
 								{
-									name="30Rnd_45ACP_Mag_SMG_01";
-									ammoLeft=25;
+									name="30Rnd_65x39_caseless_mag";
+									ammoLeft=30;
 								};
+							};
+							class handgun
+							{
+								name="hgun_P07_snds_F";
+								muzzle="muzzle_snds_L";
+								class primaryMuzzleMag
+								{
+									name="16Rnd_9x21_Mag";
+									ammoLeft=17;
+								};
+							};
+							class binocular
+							{
+								name="Rangefinder";
 							};
 							class uniform
 							{
-								typeName="U_B_HeliPilotCoveralls";
+								typeName="U_B_CombatUniform_mcam_vest";
 								isBackpack=0;
 							};
 							class vest
 							{
-								typeName="V_TacVest_blk";
+								typeName="V_Chestrig_rgr";
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=4;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
+									{
+										name="ACE_Flashlight_XL50";
+										count=1;
+									};
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
 									};
 								};
 							};
+							class backpack
+							{
+								typeName="B_AssaultPack_rgr";
+								isBackpack=1;
+							};
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
 							radio="ItemRadio";
+							gps="ItemGPS";
+							goggles="G_Shades_Black";
 							hmd="NVGoggles";
-							headgear="H_PilotHelmetHeli_B";
+							headgear="H_MilCap_mcamo";
 						};
 					};
 					id=1306;
@@ -21883,14 +21670,14 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={3082.3938,5.0014391,4438.1904};
+						position[]={3082.394,5.0014391,4438.1909};
 					};
 					side="West";
 					flags=7;
 					class Attributes
 					{
 						rank="SERGEANT";
-						description="Mission Maker@Crossroads";
+						description="Mission Maker@CROSSROADS";
 						isPlayer=1;
 						isPlayable=1;
 						class Inventory
@@ -21932,28 +21719,18 @@ class Mission
 								isBackpack=0;
 								class ItemCargo
 								{
-									items=5;
+									items=3;
 									class Item0
-									{
-										name="ACRE_PRC343";
-										count=1;
-									};
-									class Item1
-									{
-										name="ACRE_PRC152";
-										count=1;
-									};
-									class Item2
 									{
 										name="ACE_microDAGR";
 										count=1;
 									};
-									class Item3
+									class Item1
 									{
 										name="ACE_Flashlight_XL50";
 										count=1;
 									};
-									class Item4
+									class Item2
 									{
 										name="ACE_EarPlugs";
 										count=1;
@@ -21968,7 +21745,6 @@ class Mission
 							map="ItemMap";
 							compass="ItemCompass";
 							watch="ItemWatch";
-							radio="ItemRadio";
 							gps="ItemGPS";
 							goggles="G_Shades_Black";
 							hmd="NVGoggles";
@@ -23147,7 +22923,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={3272.7786,6.8708935,4435.3115};
-				angles[]={0,3.1421075,-0};
+				angles[]={0,3.1421075,0};
 			};
 			side="Empty";
 			flags=4;

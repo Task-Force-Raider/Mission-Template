@@ -18,12 +18,18 @@ loadScreen                  =   "Loading_Screen.jpg"; //an image the represents 
 joinUnassigned 				= 	1;
 disabledAI 					= 	1;
 
-// ONLY ALTER RESPAWN BLOCK IF YOU KNOW WHAT YOU ARE DOING 
+// ONLY ALTER RESPAWN BLOCK IF YOU KNOW WHAT YOU ARE DOING - Ask in #mission-making for help
 respawnDialog 				= 	0;
+respawnOnStart 				= 	-1; // -1 - Dont respawn on start. Don't run respawn script on start, 0 - Dont respawn on start. Run respawn script on start, 1 - Respawn on start. Run respawn script on start.
 respawn 					= 	"BASE";
-respawnDelay 				= 	35; //respawn wave delay
-respawnTemplates[] 			= 	{"MenuPosition", "Wave", "Spectator"}; //adds spectator to regular map respawn, see initplayerlocal.sqf for settings
-respawnOnStart 				= 	0; // -1 - Dont respawn on start. Don't run respawn script on start, 0 - Dont respawn on start. Run respawn script on start, 1 - Respawn on start. Run respawn script on start.
+
+//Pick your respawn option here - ask in #mission-making for help
+respawnDelay 				= 	15; //Default respawn delay
+respawnTemplates[] 			= 	{"MenuPosition", "Spectator"}; //Default respawn system w/ Spectator
+//respawnDelay				= 	240; //WAVE RESPAWN
+//respawnTemplates[]		=	{"MenuPosition", "Wave", "Spectator"}; //WAVE RESPAWN
+//respawnDelay				=	36000; //NO RESPAWN
+//respawnTemplates[] 		= 	{"Spectator"}; //NO RESPAWN
 
 
 briefing 					= 	-1;

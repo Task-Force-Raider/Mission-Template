@@ -1,9 +1,19 @@
+[false] call acre_api_fnc_setSpectator;
+
+//LOADS PLAYERS LOADOUT
+
 player setUnitLoadout (player getVariable ["Saved_Loadout",[]]); //Loads the players loadout when they respawn. Important to keep otherwise the player may respawn with the default arma loadout.
 
 sleep 3;
 
+//REMOVE ALL RADIOS FROM PLAYERS
 
-//ADD RADIOS TO PLAYERS
+_radios = [] call acre_api_fnc_getCurrentRadioList;
+{ player removeItem _x } forEach _radios;
+
+sleep 1;
+
+//ADD RADIOS BACK TO PLAYERS
 
 //Only uncomment these if your units classnames match the role they are in.
 
